@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>土特土商场</title>
+<meta charset="utf-8">
+<link href="style/css.css" rel="stylesheet" type="text/css" />
+<link href="style/commen.css" rel="stylesheet" type="text/css" />
+<meta name="keywords" content="土特土商场" />
+<meta name="description" content="土特土商场" />
+</head>
+<div class="content">
+	<div class="shopping-step">
+		<ul class="clearfix">
+			<li class="active">
+			    <div class="liner"></div>
+			    <p class="num text-center"><span>1</span></p>
+			    <p class="text-center">1.我的购物车</p>
+			</li>
+			<li>
+			    <div class="liner"></div>
+			    <p class="num text-center"><span>2</span></p>
+			    <p class="text-center">2.收银台结算</p>
+			</li>
+			<li>
+			    <div class="liner"></div>
+			    <p class="num text-center"><span>3</span></p>
+			    <p class="text-center">3.购买成功</p>
+			</li>
+		</ul>
+	</div>
+	<div class="shopping-title">
+		<h2>我的购物车</h2>
+		<p class="intro">查看购物车商品清单，增加减少商品数量，并勾选想要的商品进入下一步操作。</p>
+	</div>
+	<table class="cart-table" cellspacing="0">
+		<tr>
+			<th width="386" class="t1">
+			    <div class="bb"><input type="checkbox" id="all"/><label for="all">全选</label></div>
+			    <strong>商品信息</strong>
+			</th>
+			<th width="90"><strong>单价（元）</strong></th>
+			<th width="254"><strong>数量</strong></th>
+			<th width="110"><strong>优惠</strong></th>
+			<th width="204"><strong>金额</strong></th>
+			<th width="156"><strong>操作</strong></th>
+		</tr>
+		<tr height="116">
+			<td class="mess">
+			    <p class="bh"><input type="checkbox"/><label>编号：1212</label></p>
+				<a href="#"><img src="images/cart1.jpg"/></a>
+				<a href="#" class="name">精气神 山黑猪肋排 400g</a>
+			</td>
+			<td align="center">￥  68.00</td>
+			<td align="center">
+			    <div class="clearfix num-control"> 
+			            <div class="jian fl"><a href="javascript:;" onclick="jian()">-</a>
+					    </div>
+					    <div class="num fl">
+						<form method="post" action="#">
+							<input type="text" value="1" id="number">
+						</form>
+					    </div>
+					    <div class="jia fl"><a href="javascript:;" onclick="jia()">+</a>
+					    </div>
+				</div>
+		    </td>
+		    <td align="center">产品特卖7折</td>
+		    <td align="center">68.00</td>
+		    <td align="center">
+		    	<p><a href="#">移入收藏夹</a></p>
+		    	<p><a href="#">删除</a></p>
+		    </td>
+		</tr>
+	</table>
+	<div class="jiesuan">
+		<span class="num">数量总计：2</span>
+		商品总价（不含运费）：<span class="price">￥65.00</span>元
+		<a href="#" class="btn">前往收银台结算</a>
+	</div>
+</div>
+<div class="block-need content">
+	<h2>您可能还需要其他商品</h2>
+	<ul class="clearfix">
+		<li>
+			<a href="#">
+				<img src="images/h1.jpg"/>
+			    <p class="name">精气神 山黑猪精品五花肉</p>
+			    <p class="price">¥  77.00</p>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<img src="images/h2.jpg"/>
+			    <p class="name">精气神 山黑猪精品五花肉</p>
+			    <p class="price">¥  77.00</p>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<img src="images/h3.jpg"/>
+			    <p class="name">精气神 山黑猪精品五花肉</p>
+			    <p class="price">¥  77.00</p>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<img src="images/h4.jpg"/>
+			    <p class="name">精气神 山黑猪精品五花肉</p>
+			    <p class="price">¥  77.00</p>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<img src="images/h5.jpg"/>
+			    <p class="name">精气神 山黑猪精品五花肉</p>
+			    <p class="price">¥  77.00</p>
+			</a>
+		</li>
+</div>
+
+<!---数量加减js-->
+<script>
+	function jian(){
+		var i=document.getElementById("number").value;
+		if(parseInt(i)>1){
+			document.getElementById("number").value=parseInt(i)-1;}
+		else{
+			document.getElementById("number").value=1;
+			}
+		
+	    }
+	function jia(){
+		var i=document.getElementById("number").value;
+			document.getElementById("number").value=parseInt(i)+1;
+		}						
+</script>
+								
+<!---数量加减js end!!!-->

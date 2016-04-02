@@ -1,0 +1,183 @@
+/* 样式重置 start*/
+body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,form,input,textarea,p,table,tr,td {margin:0;padding:0;}
+ul {list-style: none;}
+img,a img {border:0;text-decoration: none;max-width: 100%;}
+a {text-decoration:none;color:inherit;outline: medium;}
+input {outline: medium;}
+button {border:none;margin:0;padding:0;background: transparent;}
+body {font:12px "Microsoft YaHei", Tahoma, SimSun;}
+/* 样式重置 end*/
+.clearfix:after {content:"\200B";display:block;height:0;clear:both;}
+.clearfix {*zoom:1;}
+.content {width:1200px;margin:0 auto;}
+.fl {float:left;}
+.fr {float:right;}
+.text-center {text-align: center;}
+.text-through {text-decoration: line-through;}
+.top {
+	height:31px;
+}
+.top a {
+	display: inline-block;
+	line-height: 31px;
+}
+.top p {line-height: 31px;}
+.top .login {color:#f37916;}
+.top .my-btn {color:#686767;}
+.top .my-btn a {margin:0 12px;}
+.ad1920x80 {width:100%;height:80px;}
+.hide {display: none;}
+.head {height:128px;}
+.head .logo,
+.head .logo img{width:160px;height:79px;}
+.head .logo {margin-top: 18px;}
+.head .search-container {
+	width:480px;
+	height:66px;
+	margin:36px 0 0 170px;
+}
+.head .search-container .wrap {
+	position: relative;
+	width:474px;height:32px;
+	border:2px solid #41a53a;
+}
+.head .search-container .text {
+	position: absolute;
+	left:30px;
+	top:0;
+	width:360px;height:32px;
+	border: none}
+.head .search-container .btn {
+	position: absolute;
+	top:0;
+	right: 0;
+	width:80px;height:32px;
+	color:#fff;
+	font-size: 14px;
+	border:none;
+	background-color: #41a53a;
+}
+.head .relate {margin-top: 7px;font-family: SimSun;}
+.head .relate span {
+	margin:0 6px;
+	color:#41a53a;
+}
+.head .relate a {margin:0 4px;color:#686767;}
+.head .relate a:hover {color:#41a53a;}
+.head .right {width:300px;height:110px;}
+.head .close {
+	position: absolute;
+	left:-18px;
+	top:0;
+	display: block;
+	width:16px;height:16px;
+	line-height:16px;
+	color:#e2e6ec;
+	border:1px solid #e2e6ec;
+}
+.head a.close:hover {color:#000;}
+.head .weixin {
+	position: relative;
+	width:72px;height:90px;
+	margin-top: 12px;
+	padding:6px 6px 2px;
+	border:1px solid #e2e6ec;
+}
+.head .cart {
+	display: block;
+	position: relative;
+	width:138px;height:42px;
+	margin-top: 42px;
+	line-height:42px;
+	text-indent: 42px;
+	border:1px solid #dfdfdf;
+}
+.head .cart:hover {background-color: #e2e6ec;}
+.head .cart .num {position: absolute;
+	width:16px;
+	height:14px;
+	color:#fff;
+}
+.nav-wrap {position: relative;}
+.nav-wrap .bg{
+	position: absolute;
+	width:100%;
+	height:40px;
+	background-color: #36a803;
+}
+.nav {margin-left:210px;padding-left: 28px;}
+.nav li {
+	float:left;
+	margin:0 24px;
+	height:40px;
+	line-height:40px;
+	font-size: 16px;
+	color:#fff;}
+.nav-wrap .content {
+	position: relative;
+	z-index: 2;
+}
+.sidenav {
+	position: absolute;
+	top:0;
+	left:0;
+	width:210px;
+	height:452px;
+	background-color: #85bb22;
+}
+.sidenav>dt  {
+	height:40px;
+	line-height: 40px;
+	font-size: 14px;
+	color:#fff;
+	background-color: #309a28;
+}
+.sidenav>dd {padding:14px 0 0 52px;}
+.sidenav>dd dt {margin-bottom: 6px;font-size: 14px;color:#fff;}
+.sidenav>dd dd a {color:#fff;}
+.foot,.footer .cn {border-top:1px solid #c7c7c7;}
+.foot p {
+	margin-top: 14px;
+	text-align: center;
+	color:#959595;}
+.foot .cx {margin: 24px 0;}
+.footer .slogen li {float:left;height:46px;}
+.footer .slogen .s1 {
+	padding-left: 162px;
+	width:138px;
+	border-right:1px solid #c7c7c7;
+	background: url(../img/slogen.png) no-repeat 70px 0;}
+.footer .slogen .s2 {
+	padding-left: 120px;
+	width:178px;
+	border-right:1px solid #c7c7c7;
+	background: url(../img/slogen.png) no-repeat 60px -63px;}
+.footer .slogen .s3 {
+	padding-left: 146px;
+	width:154px;
+	border-right:1px solid #c7c7c7;
+	background: url(../img/slogen.png) no-repeat 60px -123px;}
+.footer .slogen .s4 {
+	padding-left: 114px;
+	width:180px;
+	background: url(../img/slogen.png) no-repeat 54px -178px;}
+.footer .slogen p {margin-top: 6px;}
+.footer .cn {height:214px;}
+.footer .cn .item {float:left;margin:32px 48px 0;}
+.footer .cn .item dt {font-size: 16px;}
+.footer .cn .item dd {margin-top: 16px;color:#797979;}
+.footer .slogen {margin:46px 0 16px;}
+.footer .cn .contact {margin-top: 58px;margin-right: 22px;}
+.footer .cn .contact .tel {font-weight: bold;font-size:24px;color:#36a803;}
+.foot .link a {margin-left:26px;}
+.footnav a {margin:0 14px;}
+.footer .cn .date {margin:12px 0 12px 10px;}
+.footer .cn .kf {
+	display: inline-block;
+	*display: inline;
+	padding:7px 22px 7px 40px;
+	margin-left: 22px;
+	color:#36a803;
+	border:1px solid #36a803;
+}
+.footer .weixin {width:300px;margin-top: 38px;}
